@@ -26,8 +26,8 @@ jobs:
     needs: test-build
     runs-on: ubuntu-latest
 
-    startegy:
-      matriz:
+    strategy:
+      matrix:
         node-version: [16.x]
 
     steps:
